@@ -7,4 +7,11 @@
 	<packaging>pom</packaging>
 	<name>mybatis-bom</name>
 
+	<scm>
+		<url>http://github.com/mybatis/mybatis-bom</url>
+		<connection>scm:git:ssh://github.com/mybatis/mybatis-bom.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/mybatis/mybatis-bom.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
 </project>
