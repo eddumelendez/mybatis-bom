@@ -1,0 +1,68 @@
+== mybatis-bom
+
+=== Usage
+
+Include the following snippet in your `pom.xml`
+
+```xml
+<dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-bom</artifactId>
+            <version>1.0.0</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+    </dependencies>
+</dependencyManagement>
+```
+
+=== Projects available
+
+The projects below are available in the `mybatis-bom`, you should not be worried about handle the right versions anymore.
+
+* mybatis
+
+```xml
+<dependency>
+    <groupId>org.mybatis</groupId>
+    <artifactId>mybatis</artifactId>
+</dependency>
+```
+
+* mybatis-spring
+
+```xml
+<dependency>
+    <groupId>org.mybatis</groupId>
+    <artifactId>mybatis-spring</artifactId>
+</dependency>
+```
+
+* mybatis-ignite
+
+```xml
+<dependency>
+    <groupId>org.mybatis.caches</groupId>
+    <artifactId>mybatis-ignite</artifactId>
+</dependency>
+```
+
+* mybatis-ehcache
+
+```xml
+<dependency>
+    <groupId>org.mybatis.caches</groupId>
+    <artifactId>mybatis-ehcache</artifactId>
+</dependency>
+```
+
+* mybatis-hazelcast
+
+```xml
+<dependency>
+    <groupId>org.mybatis.caches</groupId>
+    <artifactId>mybatis-hazelcast</artifactId>
+</dependency>
+```
